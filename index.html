@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Taibiao Zhao | Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Taibiao Zhao – PhD candidate in Machine Learning and AI. Research in time-series forecasting, LLMs, and safety-critical autonomous systems."
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Optional: Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#top" class="logo">Taibiao Zhao</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-kicker">PhD Candidate · Machine Learning & AI</p>
+          <h1 class="hero-title">
+            I build interpretable AI for time series and safety-critical systems.
+          </h1>
+          <p class="hero-subtitle">
+            My work spans LLM-based time-series forecasting, Bayesian factor models,
+            and robustness of autonomous driving through bit-flip and backdoor
+            attacks.
+          </p>
+          <div class="hero-actions">
+            <a href="cv.pdf" class="btn primary" target="_blank" rel="noopener">
+              Download CV
+            </a>
+            <a href="#contact" class="btn secondary">Contact me</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <!-- Replace with your photo if you want -->
+          <div class="avatar-placeholder">TZ</div>
+          <h2>Currently</h2>
+          <p>
+            PhD Candidate in Computer Science<br />
+            Louisiana State University
+          </p>
+          <h2>Research Areas</h2>
+          <ul>
+            <li>LLMs for time-series forecasting</li>
+            <li>Backdoor & fault injection in ADAS</li>
+            <li>Bayesian factor analysis</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container section-inner">
+        <h2>About</h2>
+        <p>
+          I am a PhD candidate in Computer Science at Louisiana State University.
+          My research focuses on leveraging large language models and statistical
+          modeling to make time-series forecasting more accurate, interpretable,
+          and robust in high-stakes applications such as transportation and
+          autonomous driving.
+        </p>
+        <p>
+          I collaborate closely with researchers in AI, transportation, and
+          biomechanics, working on projects ranging from LLM-driven forecasting
+          frameworks to digital twins for athlete injury risk assessment.
+        </p>
+      </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section section-alt">
+      <div class="container section-inner">
+        <h2>Research</h2>
+        <p class="section-intro">
+          Selected publications and preprints. (* indicates equal contribution.)
+        </p>
+
+        <div class="cards">
+          <!-- Paper 1 -->
+          <article class="card">
+            <h3>Enhancing LLM’s Interpretability for Time Series via Multi-Level Aligned Embeddings</h3>
+            <p class="card-meta">ICLR 2025 (under review)</p>
+            <p>
+              Proposes an interpretable LLM-based forecasting framework that
+              decomposes signals into trend/seasonal components and aligns them
+              with linguistic anchors to improve both accuracy and transparency.
+            </p>
+            <div class="card-links">
+              <a href="#" target="_blank" rel="noopener">PDF</a>
+              <a href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+
+          <!-- Paper 2 -->
+          <article class="card">
+            <h3>Pruning and Malicious Injection: A Retraining-Free Backdoor Attack on Transformer Models</h3>
+            <p class="card-meta">Security / Robustness (in preparation)</p>
+            <p>
+              Introduces HPMI, a backdoor attack that prunes low-importance
+              attention heads and injects pre-trained malicious heads, enabling
+              efficient and stealthy attacks without full retraining.
+            </p>
+            <div class="card-links">
+              <a href="#" target="_blank" rel="noopener">PDF</a>
+              <a href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+
+          <!-- Paper 3 -->
+          <article class="card">
+            <h3>Regularized Bayesian Factor Correlations in Confirmatory Factor Analysis</h3>
+            <p class="card-meta">Psychometrics (in preparation)</p>
+            <p>
+              Compares Lasso, Horseshoe, and SSP-based priors for estimating
+              sparse factor correlation structures, highlighting trade-offs in
+              false positives and interpretability.
+            </p>
+            <div class="card-links">
+              <a href="#" target="_blank" rel="noopener">PDF</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container section-inner">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Fault Injection for ADAS (OpenPilot)</h3>
+            <p class="card-meta">Safety-critical AI · Ongoing</p>
+            <p>
+              Designed a spatiotemporal fault-injection framework for ADAS that
+              combines metric-guided bit search and context-aware timing to reveal
+              safety-critical vulnerabilities in closed-loop driving simulations.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Athlete Digital Twin for ACL Injury Risk</h3>
+            <p class="card-meta">Sports Analytics · Ongoing</p>
+            <p>
+              Building a multimodal pipeline that fuses time-series performance
+              data with movement videos to assess ACL injury risk and support
+              rehab planning for soccer athletes.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>LLM-Driven Time-Series Forecasting</h3>
+            <p class="card-meta">Time Series · Completed</p>
+            <p>
+              Developed multi-level alignment mechanisms between time-series
+              segments and text prototypes, enabling LLMs to capture temporal
+              patterns with interpretable anchors.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teaching Section -->
+    <section id="teaching" class="section section-alt">
+      <div class="container section-inner">
+        <h2>Teaching & Service</h2>
+        <ul class="simple-list">
+          <li>Teaching Assistant – Machine Learning, LSU</li>
+          <li>Reviewer – Structural Equation Modeling, IMPS, and related venues</li>
+          <li>Mentor – Graduate/undergraduate research projects in AI and data science</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container section-inner">
+        <h2>Contact</h2>
+        <p>
+          The best way to reach me is via email. I’m happy to discuss research,
+          collaborations, or opportunities.
+        </p>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:youremail@lsu.edu">youremail@lsu.edu</a></li>
+          <li>Google Scholar: <a href="#" target="_blank" rel="noopener">Profile</a></li>
+          <li>GitHub: <a href="#" target="_blank" rel="noopener">github.com/yourusername</a></li>
+          <li>LinkedIn: <a href="#" target="_blank" rel="noopener">linkedin.com/in/yourusername</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Taibiao Zhao. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
