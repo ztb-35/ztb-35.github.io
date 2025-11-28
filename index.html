@@ -1,215 +1,162 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Taibiao Zhao | Personal Website</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta
-    name="description"
-    content="Taibiao Zhao – PhD candidate in Machine Learning and AI. Research in time-series forecasting, LLMs, and safety-critical autonomous systems."
-  />
-  <link rel="stylesheet" href="styles.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
-</head>
-
 <body>
+  <!-- Top Nav -->
   <header class="site-header">
     <div class="container nav-container">
       <a href="#top" class="logo">Taibiao Zhao</a>
       <nav class="nav">
         <a href="#about">About</a>
-        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
         <a href="#projects">Projects</a>
         <a href="#teaching">Teaching</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Service & Contact</a>
       </nav>
     </div>
   </header>
 
   <main id="top">
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <p class="hero-kicker">PhD Candidate · Machine Learning & AI</p>
-          <h1 class="hero-title">
-            I build interpretable AI for time series and safety-critical systems.
-          </h1>
-          <p class="hero-subtitle">
-            My work spans LLM-based time-series forecasting, Bayesian factor models,
-            and robustness of autonomous driving through bit-flip and backdoor
-            attacks.
+    <!-- Intro section like the screenshot -->
+    <section id="about" class="intro">
+      <div class="container intro-inner">
+        <div class="intro-text">
+          <h1 class="intro-name">Taibiao Zhao</h1>
+          <p class="intro-line">
+            I am a computer science Ph.D. student at Louisiana State University, advised by Prof. Mingxuan Sun.
           </p>
-          <div class="hero-actions">
-            <a href="cv.pdf" class="btn primary" target="_blank" rel="noopener">Download CV</a>
-            <a href="#contact" class="btn secondary">Contact me</a>
-          </div>
-        </div>
+          <p>
+            My research interests lie in <b>time-series forecasting with large language models</b>,
+            <b>robust and safe autonomous driving</b>, and <b>Bayesian psychometrics</b>.
+          </p>
 
-        <div class="hero-card">
-          <div class="avatar-placeholder">TZ</div>
-          <h2>Currently</h2>
-          <p>PhD Candidate in Computer Science<br />Louisiana State University</p>
-
-          <h2>Research Areas</h2>
-          <ul>
-            <li>LLMs for time-series forecasting</li>
-            <li>Backdoor & fault injection in ADAS</li>
-            <li>Bayesian factor analysis</li>
+          <ul class="intro-list">
+            <li>Developing interpretable LLM-based models for time-series forecasting.</li>
+            <li>Studying backdoor and bit-flip attacks on transformer-based ADAS systems.</li>
+            <li>Designing regularized Bayesian methods for confirmatory factor analysis.</li>
           </ul>
+
+          <p>
+            If you share similar interests or would like to collaborate, feel free to reach out.
+          </p>
+
+          <p class="intro-links">
+            ✉️ <a href="mailto:tzhao3@lsu.edu">Email</a> /
+            <a href="https://www.linkedin.com/in/taibiao-zhao-234baa23a/" target="_blank">LinkedIn</a> /
+            <a href="https://github.com/ztb-35" target="_blank">Github</a> /
+            <a href="https://scholar.google.com/citations?user=h6dE0UgAAAAJ&hl=en" target="_blank">Google Scholar</a>
+          </p>
+        </div>
+
+        <div class="intro-photo">
+          <!-- put your real photo at images/profile.jpg -->
+          <img src="images/profile.jpg" alt="Taibiao Zhao" class="profile-photo">
         </div>
       </div>
     </section>
 
-    <!-- About -->
-    <section id="about" class="section">
-      <div class="container section-inner">
-        <h2>About</h2>
-        <p>
-          I am a PhD candidate in Computer Science at Louisiana State University.
-          My research focuses on leveraging large language models and statistical
-          modeling to make time-series forecasting more accurate, interpretable,
-          and robust in high-stakes applications such as transportation and
-          autonomous driving.
-        </p>
-        <p>
-          I collaborate closely with researchers in AI, transportation, and
-          biomechanics, working on projects ranging from LLM-driven forecasting
-          frameworks to digital twins for athlete injury risk assessment.
-        </p>
-      </div>
-    </section>
+    <!-- Selected Publications -->
+    <section id="publications" class="section">
+      <div class="container">
+        <div class="section-title-bar">
+          <span class="section-icon">🔍</span>
+          <h2>Selected Publications</h2>
+          <span class="title-line"></span>
+        </div>
 
-    <!-- Research -->
-    <section id="research" class="section section-alt">
-      <div class="container section-inner">
-        <h2>Research</h2>
-        <p class="section-intro">Selected publications and preprints.</p>
-
-        <div class="cards">
-
-          <article class="card">
-            <h3>Enhancing LLM’s Interpretability for Time Series via Multi-Level Aligned Embeddings</h3>
-            <p class="card-meta">ICLR 2025 (under review)</p>
-            <p>
-              An interpretable LLM-based forecasting framework that aligns temporal
-              patterns with linguistic anchors to improve both accuracy and transparency.
-            </p>
-            <div class="card-links">
-              <a href="#" target="_blank">PDF</a>
-              <a href="#" target="_blank">Code</a>
+        <div class="pub-list">
+          <div class="pub-item">
+            <div class="pub-badge">Preprint</div>
+            <div>
+              <a class="pub-title" href="#" target="_blank">
+                Enhancing LLM’s Interpretability for Time Series via Multi-Level Aligned Embeddings
+              </a>
+              <div class="pub-authors">
+                Taibiao Zhao, <i>et al.</i>
+              </div>
+              <div class="pub-meta">ICLR 2025 (under review)</div>
             </div>
-          </article>
+          </div>
 
-          <article class="card">
-            <h3>Pruning and Malicious Injection: A Retraining-Free Backdoor Attack on Transformer Models</h3>
-            <p class="card-meta">Robustness & Security</p>
-            <p>
-              Introduces HPMI, a backdoor attack that prunes low-importance attention heads
-              and injects pre-trained malicious heads for stealthy model manipulation.
-            </p>
-            <div class="card-links">
-              <a href="#" target="_blank">PDF</a>
-              <a href="#" target="_blank">Code</a>
+          <div class="pub-item">
+            <div class="pub-badge">Work in progress</div>
+            <div>
+              <span class="pub-title">
+                Pruning and Malicious Injection: A Retraining-Free Backdoor Attack on Transformer Models
+              </span>
+              <div class="pub-authors">
+                Taibiao Zhao, <i>et al.</i>
+              </div>
+              <div class="pub-meta">Robustness &amp; Security</div>
             </div>
-          </article>
+          </div>
 
-          <article class="card">
-            <h3>Regularized Bayesian Factor Correlations in Confirmatory Factor Analysis</h3>
-            <p class="card-meta">Psychometrics</p>
-            <p>
-              Compares Lasso, Horseshoe, and SSP priors for estimating sparse factor correlation structures.
-            </p>
-            <div class="card-links">
-              <a href="#" target="_blank">PDF</a>
+          <div class="pub-item">
+            <div class="pub-badge">Preprint</div>
+            <div>
+              <span class="pub-title">
+                Regularized Bayesian Factor Correlations in Confirmatory Factor Analysis
+              </span>
+              <div class="pub-authors">
+                Taibiao Zhao, <i>et al.</i>
+              </div>
+              <div class="pub-meta">Psychometrics</div>
             </div>
-          </article>
-
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Projects -->
-    <section id="projects" class="section">
-      <div class="container section-inner">
+    <section id="projects" class="section section-alt">
+      <div class="container">
         <h2>Projects</h2>
-
         <div class="cards">
           <article class="card">
             <h3>Fault Injection for ADAS (OpenPilot)</h3>
-            <p class="card-meta">Safety-critical AI</p>
             <p>
-              Designed a spatiotemporal fault-injection framework combining metric-guided
-              bit search and context-aware timing to reveal driving safety vulnerabilities.
+              Spatiotemporal fault-injection framework combining metric-guided bit search and
+              context-aware timing to reveal safety-critical vulnerabilities.
             </p>
           </article>
-
           <article class="card">
             <h3>Athlete Digital Twin for ACL Injury Risk</h3>
-            <p class="card-meta">Biomechanics & Sports AI</p>
             <p>
-              A multimodal pipeline that fuses sensor time-series and video motion data to
-              assess ACL injury risk in soccer athletes.
+              Multimodal pipeline fusing sensor time-series and motion videos to assess ACL injury risk.
             </p>
           </article>
-
           <article class="card">
             <h3>LLM-Driven Time-Series Forecasting</h3>
-            <p class="card-meta">Time Series</p>
             <p>
-              Developed multi-level temporal alignment mechanisms that allow LLMs to
-              capture patterns through text prototypes and semantic anchors.
+              Multi-level alignment between temporal patterns and text prototypes for interpretable TS forecasting.
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Teaching -->
-    <section id="teaching" class="section section-alt">
-      <div class="container section-inner">
-        <h2>Teaching & Service</h2>
-
-        <ul class="simple-list">
-          <li>Teaching Assistant – Machine Learning, LSU</li>
-          <li>Reviewer – Structural Equation Modeling Journal</li>
-          <li>Reviewer – IMPS and related psychometrics conferences</li>
+    <!-- Teaching & Service -->
+    <section id="teaching" class="section">
+      <div class="container">
+        <h2>Teaching &amp; Service</h2>
+        <ul>
+          <li>Teaching Assistant – Machine Learning, LSU.</li>
+          <li>Reviewer – Structural Equation Modeling journal.</li>
+          <li>Reviewer – IMPS and related conferences.</li>
         </ul>
       </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="section">
-      <div class="container section-inner">
+    <section id="contact" class="section section-alt">
+      <div class="container">
         <h2>Contact</h2>
-        <p>Feel free to reach me for research discussions or collaborations.</p>
-
-        <ul class="contact-list">
-          <li>Email: <a href="mailto:tzhao3@lsu.edu">tzhao3@lsu.edu</a></li>
-          <li>Google Scholar: 
-            <a href="https://scholar.google.com/citations?user=h6dE0UgAAAAJ&hl=en" target="_blank">
-              scholar.google.com
-            </a>
-          </li>
-          <li>GitHub: 
-            <a href="https://github.com/ztb-35" target="_blank">github.com/ztb-35</a>
-          </li>
-          <li>LinkedIn:
-            <a href="https://www.linkedin.com/in/taibiao-zhao-234baa23a/" target="_blank">
-              linkedin.com/in/taibiao-zhao
-            </a>
-          </li>
-        </ul>
+        <p>The best way to reach me is by email.</p>
+        <p><b>Email:</b> <a href="mailto:tzhao3@lsu.edu">tzhao3@lsu.edu</a></p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Taibiao Zhao. All rights reserved.</p>
+    <div class="container">
+      © <span id="year"></span> Taibiao Zhao
     </div>
   </footer>
 
@@ -217,4 +164,3 @@
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
-</html>
