@@ -9,12 +9,12 @@
     content="Taibiao Zhao – PhD candidate in Machine Learning and AI. Research in time-series forecasting, LLMs, and safety-critical autonomous systems."
   />
   <link rel="stylesheet" href="styles.css" />
-  <!-- Optional: Google Font -->
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
     rel="stylesheet"
   />
 </head>
+
 <body>
   <header class="site-header">
     <div class="container nav-container">
@@ -30,7 +30,7 @@
   </header>
 
   <main id="top">
-    <!-- Hero Section -->
+    <!-- Hero -->
     <section class="hero">
       <div class="container hero-inner">
         <div class="hero-text">
@@ -44,21 +44,16 @@
             attacks.
           </p>
           <div class="hero-actions">
-            <a href="cv.pdf" class="btn primary" target="_blank" rel="noopener">
-              Download CV
-            </a>
+            <a href="cv.pdf" class="btn primary" target="_blank" rel="noopener">Download CV</a>
             <a href="#contact" class="btn secondary">Contact me</a>
           </div>
         </div>
 
         <div class="hero-card">
-          <!-- Replace with your photo if you want -->
           <div class="avatar-placeholder">TZ</div>
           <h2>Currently</h2>
-          <p>
-            PhD Candidate in Computer Science<br />
-            Louisiana State University
-          </p>
+          <p>PhD Candidate in Computer Science<br />Louisiana State University</p>
+
           <h2>Research Areas</h2>
           <ul>
             <li>LLMs for time-series forecasting</li>
@@ -69,7 +64,7 @@
       </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About -->
     <section id="about" class="section">
       <div class="container section-inner">
         <h2>About</h2>
@@ -88,125 +83,125 @@
       </div>
     </section>
 
-    <!-- Research Section -->
+    <!-- Research -->
     <section id="research" class="section section-alt">
       <div class="container section-inner">
         <h2>Research</h2>
-        <p class="section-intro">
-          Selected publications and preprints. (* indicates equal contribution.)
-        </p>
+        <p class="section-intro">Selected publications and preprints.</p>
 
         <div class="cards">
-          <!-- Paper 1 -->
+
           <article class="card">
             <h3>Enhancing LLM’s Interpretability for Time Series via Multi-Level Aligned Embeddings</h3>
             <p class="card-meta">ICLR 2025 (under review)</p>
             <p>
-              Proposes an interpretable LLM-based forecasting framework that
-              decomposes signals into trend/seasonal components and aligns them
-              with linguistic anchors to improve both accuracy and transparency.
+              An interpretable LLM-based forecasting framework that aligns temporal
+              patterns with linguistic anchors to improve both accuracy and transparency.
             </p>
             <div class="card-links">
-              <a href="#" target="_blank" rel="noopener">PDF</a>
-              <a href="#" target="_blank" rel="noopener">Code</a>
+              <a href="#" target="_blank">PDF</a>
+              <a href="#" target="_blank">Code</a>
             </div>
           </article>
 
-          <!-- Paper 2 -->
           <article class="card">
             <h3>Pruning and Malicious Injection: A Retraining-Free Backdoor Attack on Transformer Models</h3>
-            <p class="card-meta">Security / Robustness (in preparation)</p>
+            <p class="card-meta">Robustness & Security</p>
             <p>
-              Introduces HPMI, a backdoor attack that prunes low-importance
-              attention heads and injects pre-trained malicious heads, enabling
-              efficient and stealthy attacks without full retraining.
+              Introduces HPMI, a backdoor attack that prunes low-importance attention heads
+              and injects pre-trained malicious heads for stealthy model manipulation.
             </p>
             <div class="card-links">
-              <a href="#" target="_blank" rel="noopener">PDF</a>
-              <a href="#" target="_blank" rel="noopener">Code</a>
+              <a href="#" target="_blank">PDF</a>
+              <a href="#" target="_blank">Code</a>
             </div>
           </article>
 
-          <!-- Paper 3 -->
           <article class="card">
             <h3>Regularized Bayesian Factor Correlations in Confirmatory Factor Analysis</h3>
-            <p class="card-meta">Psychometrics (in preparation)</p>
+            <p class="card-meta">Psychometrics</p>
             <p>
-              Compares Lasso, Horseshoe, and SSP-based priors for estimating
-              sparse factor correlation structures, highlighting trade-offs in
-              false positives and interpretability.
+              Compares Lasso, Horseshoe, and SSP priors for estimating sparse factor correlation structures.
             </p>
             <div class="card-links">
-              <a href="#" target="_blank" rel="noopener">PDF</a>
+              <a href="#" target="_blank">PDF</a>
             </div>
           </article>
+
         </div>
       </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Projects -->
     <section id="projects" class="section">
       <div class="container section-inner">
         <h2>Projects</h2>
+
         <div class="cards">
           <article class="card">
             <h3>Fault Injection for ADAS (OpenPilot)</h3>
-            <p class="card-meta">Safety-critical AI · Ongoing</p>
+            <p class="card-meta">Safety-critical AI</p>
             <p>
-              Designed a spatiotemporal fault-injection framework for ADAS that
-              combines metric-guided bit search and context-aware timing to reveal
-              safety-critical vulnerabilities in closed-loop driving simulations.
+              Designed a spatiotemporal fault-injection framework combining metric-guided
+              bit search and context-aware timing to reveal driving safety vulnerabilities.
             </p>
           </article>
 
           <article class="card">
             <h3>Athlete Digital Twin for ACL Injury Risk</h3>
-            <p class="card-meta">Sports Analytics · Ongoing</p>
+            <p class="card-meta">Biomechanics & Sports AI</p>
             <p>
-              Building a multimodal pipeline that fuses time-series performance
-              data with movement videos to assess ACL injury risk and support
-              rehab planning for soccer athletes.
+              A multimodal pipeline that fuses sensor time-series and video motion data to
+              assess ACL injury risk in soccer athletes.
             </p>
           </article>
 
           <article class="card">
             <h3>LLM-Driven Time-Series Forecasting</h3>
-            <p class="card-meta">Time Series · Completed</p>
+            <p class="card-meta">Time Series</p>
             <p>
-              Developed multi-level alignment mechanisms between time-series
-              segments and text prototypes, enabling LLMs to capture temporal
-              patterns with interpretable anchors.
+              Developed multi-level temporal alignment mechanisms that allow LLMs to
+              capture patterns through text prototypes and semantic anchors.
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Teaching Section -->
+    <!-- Teaching -->
     <section id="teaching" class="section section-alt">
       <div class="container section-inner">
         <h2>Teaching & Service</h2>
+
         <ul class="simple-list">
           <li>Teaching Assistant – Machine Learning, LSU</li>
-          <li>Reviewer – Structural Equation Modeling, IMPS, and related venues</li>
-          <li>Mentor – Graduate/undergraduate research projects in AI and data science</li>
+          <li>Reviewer – Structural Equation Modeling Journal</li>
+          <li>Reviewer – IMPS and related psychometrics conferences</li>
         </ul>
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section id="contact" class="section">
       <div class="container section-inner">
         <h2>Contact</h2>
-        <p>
-          The best way to reach me is via email. I’m happy to discuss research,
-          collaborations, or opportunities.
-        </p>
+        <p>Feel free to reach me for research discussions or collaborations.</p>
+
         <ul class="contact-list">
-          <li>Email: <a href="mailto:youremail@lsu.edu">youremail@lsu.edu</a></li>
-          <li>Google Scholar: <a href="#" target="_blank" rel="noopener">Profile</a></li>
-          <li>GitHub: <a href="#" target="_blank" rel="noopener">github.com/yourusername</a></li>
-          <li>LinkedIn: <a href="#" target="_blank" rel="noopener">linkedin.com/in/yourusername</a></li>
+          <li>Email: <a href="mailto:tzhao3@lsu.edu">tzhao3@lsu.edu</a></li>
+          <li>Google Scholar: 
+            <a href="https://scholar.google.com/citations?user=h6dE0UgAAAAJ&hl=en" target="_blank">
+              scholar.google.com
+            </a>
+          </li>
+          <li>GitHub: 
+            <a href="https://github.com/ztb-35" target="_blank">github.com/ztb-35</a>
+          </li>
+          <li>LinkedIn:
+            <a href="https://www.linkedin.com/in/taibiao-zhao-234baa23a/" target="_blank">
+              linkedin.com/in/taibiao-zhao
+            </a>
+          </li>
         </ul>
       </div>
     </section>
@@ -219,7 +214,6 @@
   </footer>
 
   <script>
-    // Set current year in footer
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
