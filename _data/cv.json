@@ -2,60 +2,56 @@
   "basics": {
     "name": "Taibiao Zhao",
     "email": "tzhao3@lsu.edu",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "phone": "(+1)2254415041",
+    "website": "https://ztb-35.github.io",
+    "summary": "Currently employed at Louisiana State University. Short biography for the left-hand sidebar",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Baton Rouge",
       "countryCode": "US",
-      "region": ""
+      "region": "LA"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=h6dE0UgAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/my-orcid?orcid=0009-0005-8929-3798"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "ztb-35",
+        "url": "https://github.com/ztb-35"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Taibiao Zhao",
+        "url": "https://www.linkedin.com/in/taibiao-zhao-234baa23a/"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Louisiana State University",
+      "area": "Ph.D in computer science",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "startDate": "2021",
+      "endDate": "present",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Northeastern University (CN)",
+      "area": "B.S. in mathematics",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "startDate": "2016",
+      "endDate": "2020",
       "gpa": null,
       "courses": []
     }
@@ -124,16 +120,16 @@
       "description": ""
     }
   ],
-  "teaching": [
+  "experience": [
     {
-      "course": "Teaching experience 1",
+      "course": "experience experience 1",
       "institution": "University 1, Department",
       "date": "2014-01-01",
       "role": "Undergraduate course",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
+      "course": "experience experience 2",
       "institution": "University 1, Department",
       "date": "2015-01-01",
       "role": "Workshop",
