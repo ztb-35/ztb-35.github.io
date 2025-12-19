@@ -23,15 +23,17 @@ repository               : "ztb-35/ztb-35.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
+# Biographic information
   avatar           : "avatar.png"
   name             : "Taibiao Zhao"
-  pronouns         : "he/him"  
-  bio              : "**Ph.D. Candidate** @ LSU, **B.S.** @ Northeastern Univ. (CN)\\🎯 **Actively seeking:**\\Research / Applied Scientist, MLE roles(Start: 2026)"
+  pronouns         : "he/him"
+  # 使用 <br> 强制换行，使用 <b> 加粗关键信息
+  bio              : "Ph.D. Candidate @ LSU<br>B.S. @ Northeastern Univ. (CN)<br><br>🎯 <b>Actively seeking:</b><br>Research Scientist / MLE<br>(Start: 2026)"
   location         : "Baton Rouge, LA, USA"
   employer         : "Louisiana State University"
   uri              : # URL
-  email            : "tzhao3@lsu.edu" 
+  email            : "tzhao3@lsu.edu"
+
 
   # Academic websites
   academia         : # URL
