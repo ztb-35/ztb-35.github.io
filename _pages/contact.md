@@ -8,10 +8,10 @@ redirect_from:
 ---
 
 {% include base_path %}
-Department of Computer Science Engineering\\
+Division of Computer Science and Engineering\\
 Louisiana State University\\
-3304 South Quad Dr Baton Rouge, LA 70803
+3304 South Quad Dr, Baton Rouge, LA 70803
 
-**Email:** tzhao3[at]lsu[dot]edu
+**Email:** tzhao3 [at] lsu [dot] edu
 
 
