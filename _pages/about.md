@@ -29,6 +29,7 @@ I am currently seeking Research Scientist, Applied Scientist, or Machine Learnin
   Enhancing Time Series Forecasting via Multi-Level Text Alignment with LLMs. <strong>Taibiao Zhao</strong>, Xiaobing Chen, Mingxuan Sun. International Conference on Database Systems for Advanced Applications[<a href="https://arxiv.org/pdf/2504.07360?">(DASFAA'25)</a>][<a href="https://arxiv.org/pdf/2504.07360?f">PDF</a>][<a href="https://github.com/ztb-35/MLTA">CODE</a>]
 
   **News**
+  **Feb 2026[Paper]** <a href="">MLTA-LLM: Multi-Level Text Alignment for Interpretable and Uncertainty-Aware Time Series Forecasting with LLMs</a> get a major revision by <a href="https://dl.acm.org/journal/tkdd">TKDD'26</a>
 
   **Dec 2025[Service]** Invited to serve as a reviewer for <a href="https://dl.acm.org/journal/tkdd">TKDD</a>
 

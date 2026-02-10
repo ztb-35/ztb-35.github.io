@@ -1,7 +1,7 @@
 ---
 title: "MLTA-LLM: Multi-Level Text Alignment for Interpretable and Uncertainty-Aware Time Series Forecasting with LLMs"
 collection: publications
-category: underreview
+category: underreview, major revision
 permalink: /publication/MLTA-LLM
 #excerpt: 'MLTA'
 date: 2025-01-24
